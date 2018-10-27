@@ -5,7 +5,7 @@ try:
     number = int(input("Number of runs: "))
 except ValueError:
     print("Not a number")
-    exit()
+    exit(255)
 
 heads = 0
 for x in range(number):
